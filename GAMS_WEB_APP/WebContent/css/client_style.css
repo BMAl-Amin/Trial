@@ -1,0 +1,343 @@
+@charset "ISO-8859-1";
+
+#footer{
+	background-color: #e8e8e3;
+}
+
+#addClientDiv{
+	width: 350px;
+	height: 490px;
+	border-right: 3px solid rgba(0,0,0,.1);
+	margin: 40px 0 0 0;
+	float: left;
+	
+}
+
+#addClientH2{
+	text-align: center;
+	height: 25px;
+	background-color: rgba(0,0,0,.6);
+	width: 80%;
+	margin: 0 10% 0 10%;
+	font-family: monospace;
+	padding:5px 0;
+	color: white;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#addClientForm{
+	margin: 40px 0 0 15px;
+	color: rgba(0,0,0,.5);
+}
+
+#addClientForm label{
+	color: rgba(60,20,30,.7);
+	font-size: 15px;
+	text-shadow: -1px -1px rgba(0,0,0,.1);
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+#addClientForm input[type="text"]{
+	padding-left: 5px;
+	margin: 0 0 10px 40px;
+	height: 25px;
+	width: 70%;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,.4);
+	color: rgba(0,0,0,.7);
+}
+
+
+#clientAddressBox{
+	padding-left: 5px;
+	margin: 0 0 10px 40px;
+	height: 100px;
+	width: 70%;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,.4);
+	color: rgba(0,0,0,.7);
+	padding-top: 3px;
+}
+
+#addClientBtn{
+	margin: 30px 0 0 95px;
+	width: 100px;
+	padding: 3px;
+	background-color: rgba(0,60,10,.6);
+	border-radius: 6px;
+}
+
+#addClientBtn:hover{
+	cursor: pointer;
+	border-color: yellow;
+}
+
+
+
+
+
+
+
+
+#clientOperationDiv{
+	width:350px;
+	margin: 10px 0 0 15px;
+	height: 550px;
+	float: left;
+}
+
+#clientOperationField{
+	background-color: rgba(0,60,10,.4);
+	border: none;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	text-align: center;
+	float: left;
+}
+
+#clientOperationLegend{
+	color: #004000;
+	border: none;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bolder;
+	text-shadow: .5px -.5px 1px rgba(45,65,10,.4);
+}
+
+#clientSearchBoxMain{
+	width: 273px;
+	float: left;
+	border-radius: 2px;
+	border:1px solid rgba(0,60,10,.4);
+	border-bottom: 2px solid gray; 
+	height: 28px;
+	color: gray;
+	padding-left: 5px;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	margin: 10px 0 10px 17px;
+	transition: border 1s ease;
+}
+
+#paymentAnountBox{
+	width: 60px;
+	float: left;
+	border-radius: 2px;
+	border:1px solid rgba(0,60,10,.4);
+	height: 28px;
+	color: gray;
+	padding:0px 5px;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	margin-left: 60px;
+	transition: border 1s ease;
+}
+
+#paymentAnountBox:focus,
+#clientSearchBoxMain:focus{
+	border: 1px solid gray;
+}
+
+#clientPaymentBtn{
+	padding:2px 0px;
+	border-color: #008000;
+	border-radius: 20%;
+	min-width: 90px;
+	margin: 5px 0 0 20px;
+	color: #008000;
+	font-size: 15px;
+	font-weight: bolder;
+	font-family: monospace;
+	float: left;
+	transition: background-color .5s ease;
+}
+
+#clientPaymentBtn:hover{
+	cursor: pointer;
+	color: #004040;
+	background-color: yellow;
+}
+
+#clientSuggestDiv{
+	position: fixed;
+	top: 128px;
+	left: 528px;
+	height: 200px;
+	overflow-y: auto;
+	width: 274px;
+	border: 1px solid gray;
+	background-color: white;
+	border-top: none;
+	padding-left:4px;
+}
+
+#clientSuggestUl{
+	list-style-type: none;
+	margin: 5px 0 0 0px;
+	padding: 0;
+}
+
+.clientSuggestList{
+	margin: 2px 0 0 0;
+	color: gray;
+	padding: 5px 5px;
+	font-size: 15px;
+	transition: background-color 1s ease;
+}
+
+.clientSuggestList:hover{
+	background-color: rgba(0,60,10,.1);
+	cursor: pointer;
+}
+
+
+.clientOperationInnerDiv{
+	float: left;
+	
+	height: 410px;
+	width: 350px;
+	margin-top: 10px;
+}
+
+
+
+
+#paymentDiv{
+	width:355px;
+}
+.paymentH3{
+	font-family: monospace;
+	margin: 5px 0 0 5px;
+	color: rgba(130,10,40,.8);
+	font-size: 18px;
+}
+
+#cHistoryH3{
+	text-align: center;
+	background: rgba(0,0,0,.2);
+	color: blue;
+	margin-top: 15px;
+}
+
+#cHistoryDiv{
+	width:100%;
+	height: 240px;
+	margin: 5px 0 0 0;
+}
+
+#cHistoryUl{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	max-height: 250px;
+	overflow-y:auto; 
+	text-align: center;
+}
+
+.cHistoryLi{
+	color: rgba(0,0,0,.6);
+	padding: 2px 0;
+	margin: 2px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#clientInfoDiv{
+	float: left;
+	width: 340px;
+	height: 550px;
+	margin: 10px 0 0 15px;
+	color: rgba(0,0,0,.6);
+}
+
+#clientInfoInnerDiv{
+	width: 100%;
+	height: 470px;
+	border-bottom: 3px dotted gray;
+	overflow-y: auto;
+}
+
+#topClientH2{
+	text-align: center;
+	width: 90%;
+	border-radius: 3px;
+	background-color:rgba(120,201,30,.5);
+	color: #660066;
+	font-family: monospace;
+	margin: 10px 0 5px 10px;
+}
+
+#topTypeSelect{
+	width: 150px;
+	border: none;
+	color: rgba(0,0,0,.8);
+	margin: 5px 5px 5px 20px;
+	height: 22px;
+	border-radius: 3px;
+}
+
+#topTimeSelect{
+	width: 120px;
+	border: none;
+	color: rgba(0,0,0,.8);
+	margin: 5px 0 5px 2px;
+	height: 22px;
+	border-radius: 3px;
+}
+
+.topClientDiv{
+	width: 90%;
+	height: auto;
+	text-align: center;
+	border-radius: 10px;
+	background-color: rgba(130,10,40,.5);
+	margin: 5px 0 5px 20px;
+	
+}
+
+.clientNameHeader{
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 22px;
+	color: #b7ffdb;
+	margin: 0;
+	padding:0;
+}
+
+.clientLabel{
+	margin: 5px auto;
+	color: white;
+	font-family: sans-serif;
+	font-size: 14px;
+	display: block;
+}
+
+.clientViewBtn{
+	margin:6px auto;
+	color: rgba(0,120,120,.6);
+}
+
+
+
+
+
+
+
+
+
+

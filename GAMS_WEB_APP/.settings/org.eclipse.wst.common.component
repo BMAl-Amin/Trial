@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="GAMS_WEB_APP">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/java_files"/>
+        <property name="context-root" value="GAMS_WEB_APP"/>
+        <property name="java-output-path" value="/GAMS_WEB_APP/build/classes"/>
+    </wb-module>
+</project-modules>

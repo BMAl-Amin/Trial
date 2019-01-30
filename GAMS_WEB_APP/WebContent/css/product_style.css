@@ -1,0 +1,473 @@
+@charset "ISO-8859-1";
+
+#entryNew{
+	overflow: hidden;
+}
+.entryNewP{
+	width: 90%;
+	height: 90%;
+	margin: 20px 0 0 50px;
+	overflow: hidden;
+	float: left;
+}
+
+.inputLabel{
+	width: 150px;
+	height: 30px;
+	margin: 10px 0 10px 10px;
+	text-align: right;
+	float: left;
+	color: rgba(0,0,0,.7);
+	font-family: sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+}
+
+.entryInput{
+	float: left;
+	width: 250px;
+	height: 30px;
+	margin: 10px 0 10px 10px;
+	background-color: rgba(122,36,105,.085);
+	border-radius: 2px;
+	color: rgba(0,0,0,.7);
+	transition: background-color 1s ease;
+	border: .5px inset rgba(122,36,105,.5);
+}
+
+.entryInput:focus {
+	border: .5px solid rgba(122,36,105,.7);
+	background-color: white;
+}
+
+#entryNewBtn{
+	margin: 35px 0 0 230px;
+	border:none;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	padding-top: 3px;
+	font-weight: 600;
+	color: white;
+	font-size: 22px;
+	background-color: rgba(122,36,105,.5);
+	border-radius: 2px;
+	border-top-right-radius: 50%;
+	border-top-left-radius: 50%;
+	transition: border-radius .6s ease;
+}
+
+#entryNewBtn:hover {
+	border-radius: 3px;
+	cursor: pointer;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+.inputError{
+	border: .5px solid red;
+}
+
+#entryMsg{
+	width: 100%;
+	display: block;
+	text-align: center;
+	color: red;
+}
+
+#sucH3{
+	text-align: center;
+	margin-left: 0;
+	color: rgba(0,45,0,.5);
+}
+.sucLabel{
+	width: auto;
+	height: auto;
+	display: block;
+	text-align: left;
+	color: rgba(0,45,0,.5);
+	font: small-caps;
+	margin: 0 0 10px 90px;
+	font-size: 16px;
+	font-weight: lighter;
+	font-family: sans-serif;
+}
+
+#entrySuccessful{
+	height: auto;
+}
+
+
+
+#viewProduct h2{
+	width: 350px;
+	border-top-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	margin:10px auto;
+	text-align: center;
+	color: white;
+	font-family: monospace;
+	font-weight: bolder;
+	background-color: rgba(122,45,120,.5);
+	float: left;
+}
+
+#productTable{
+	width: 700px;
+	height: 350px;
+	display: block;
+	border: none;
+	float: left;
+	overflow: hidden;
+}
+
+#tHead{
+	width: 665px;
+	display: block;
+	font-family: serif;
+	font-size: 18px;
+	color: white;
+	padding: 0;
+	margin: 0;
+	background-color: rgba(180,145,105,.8);
+}
+
+#tBody{
+	margin: 0;
+	width: 682px;
+	height: 300px;
+	overflow-y: scroll;
+	display: block;
+}
+
+#tBody tr:nth-child(even) {background: #CCC}
+#tBody tr:nth-child(odd) {background: #f0f0f0}
+
+#tBody tr{
+	height: 40px;
+	font-family: sans-serif;
+	color: rgb(180,145,105);
+	font-size: 16px;
+}
+
+#tBody td{
+	text-align: center;
+}
+
+.smallTd{
+	width: 68px;
+}
+
+.bigTd{
+	width: 162.5px;
+}
+
+.editBt{
+	border-radius: 50%
+}
+
+.editCell{
+	width: 95%;
+	height: 100%;
+	background-color: white;
+	color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#editDiv{
+	width: 500px;
+	height: 100px;
+	float: left;
+	background-color: rgba(180,145,105,.8);
+	border-radius: 50%;
+	border-top: 8px outset rgba(2,36,05,.6);
+	margin: 10px 60px;
+	overflow: hidden;
+}
+
+#editDiv img{
+	float: left;
+	margin: 15px 0 0 70px;
+}
+
+#noticeDiv{
+	margin: 10px 0 0 10px;
+	width: 250px;
+	height: 70px;
+	float: left;
+	color: white;
+	padding: 5px;
+	font-size: 17px;
+}
+
+
+
+
+#purchaseH2{
+	margin: 5px auto;
+	padding: 2px;
+	text-align: center;
+	background-color: rgba(180,145,105,.8);
+	color: white;
+	height: 30px;
+	width: 30%;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	
+}
+
+#purchasePanel{
+	width:98%;
+	height: 80px;
+	overflow: hidden;
+	background-color: rgba(0,0,0,.1);
+	border-radius: 5px;
+	padding-left: 5px;
+	display: block;
+}
+
+#searchChoice{
+	float: left;
+	width: 30%;
+	height: 100%;
+	color: rgba(0,0,0,.5);
+	font-size: 16.5px;
+}
+
+#searchChoice label{
+	float: left;
+	margin: 15px 5px 0 5px;
+}
+
+#toggleDiv{
+	width: 100px;
+	height: 30px;
+	border: 1px solid rgba(144,20,130,.5);
+	border-radius: 8px;
+	float: left; 
+	margin-top: 10px;
+}
+
+.toggleActive{
+	background-color: rgba(144,20,130,.7);
+}
+
+#toggleType{
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+	width: 50%;
+	height: 100%;
+	float: left;
+	transition: background-color 1s ease;
+}
+
+#toggleType:hover{
+	cursor: pointer;
+	background-color: rgba(144,20,130,.1);
+}
+
+#toggleId{
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
+	width: 50%;
+	height: 100%;
+	float: left;
+	transition: background-color 1s ease;
+}
+
+#toggleId:hover{
+	cursor: pointer;
+	background-color: rgba(144,20,130,.1);
+}
+
+.toggleLabel{
+	color: rgba(144,20,130,.8);
+}
+
+#namLabel,
+#idLabel{
+	transition: color 1s ease;
+}
+
+#searchByType{
+	float: left;
+	width: 69%;
+	height: 98%;
+	padding-left: 5px;
+}
+
+#searchById{
+	float: left;
+	width: 69%;
+	height: 98%;
+	padding-left: 5px;
+}
+
+#searchByType label{
+	float: left;
+	margin: 5px;
+	color: rgba(12,12,0,.7);
+}
+
+#searchByType label select{
+	width: 180px;
+	height: 25px;
+	border: none;
+	color: rgba(12,12,0,.7);
+	border-bottom: 1px solid rgba(180,145,105,.8);
+	transition: border .5s ease;
+}
+
+#searchByType label input[type="number"]{ 
+	height: 25px;
+	width: 80px;
+	color: rgba(12,12,0,.7);
+	border-radius: 3px;
+	border: 1px solid rgba(180,145,105,.8);
+}
+
+#searchTypeBtn{
+	margin-left: 150px;
+	border-radius: 4px;
+	transition: color 1s;
+	transition: background-color 1s;
+	width: 80px;
+	height: 30px;
+}
+
+#searchTypeBtn:hover {
+	color: #004000;
+	background-color: #d7ffeb;
+	cursor: pointer;
+}
+
+#searchGroup{
+	width: 60%;
+	height: 98%;
+	float: left;
+}
+
+
+#searchId{
+	width:250px;
+	height: 25px;
+	border: none;
+	margin: 20px 0 0 10px;
+	float:left;
+	padding-left: 5px;
+	border-radius: 4px;
+	background-color: white;
+	color: rgba(0,0,0,.5);
+}
+
+#srchLblImg{
+	height: 25px;
+	width: 25px;
+	border: none;
+	margin-top: 20px;
+	float: left;
+}
+
+
+#expandableBox{
+	width: 230px;
+	height: auto;
+	font-size: 16px;
+	color: rgba(0,0,0,.5);
+	margin-top: 20px;
+	position: absolute;
+	top:110;
+	left:50;
+}
+
+#purchaseAmountById{
+	margin: 20px 5px 0 0;
+	width: 55px;
+	height: 25px;
+	margin-top: 2px auto;
+	display: block;
+	float: left;
+}
+
+#searchIdBtn{
+	margin: 20px 0 0 20px;
+	float: left;
+	border-radius: 4px;
+	transition: color 1s;
+	transition: background-color 1s;
+	width: 50px;
+	height: 30px;
+}
+
+
+
+
+
+
+
+
+#invoiceHeader{
+	text-align: center;
+	background-color: rgba(0,0,0,.1);
+	color: #1bb448;
+	width: 600px;
+	margin: 10px auto;
+}
+
+#invoiceTable{
+	width: 600px;
+	border-spacing: 0;
+	border: .5px solid rgba(0,0,0,.5);
+	margin: 5px auto;
+	max-height: 300px;
+	overflow-y: auto; 
+}
+
+.thParentRow{
+	color: #1bb448;
+	background-color: yellow;
+}
+
+.tdParentRow{
+	color: rgba(0,0,22,.5);
+}
+.tdParentRow td{
+	text-align: center;
+}
+
+
+#nameHeaderP{
+	min-width: 180px;
+}
+#totalPCostDiv{
+	width: 600px;
+	height: 25px;
+	padding-left: 450px;
+	color: rgba(0,0,22,.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
